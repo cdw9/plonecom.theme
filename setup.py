@@ -25,6 +25,7 @@ setup(name='plonecom.theme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.jbot',
           'collective.responsivetheme',
           # -*- Extra requirements: -*-
       ],

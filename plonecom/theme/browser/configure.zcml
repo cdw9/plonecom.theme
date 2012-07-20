@@ -10,6 +10,14 @@
       name="Plone.com Theme"
       />
   
+
+  <include package="z3c.jbot" file="meta.zcml" />
+
+  <browser:jbot
+      directory="template-overrides"
+      layer=".interfaces.IThemeSpecific" />
+          
+          
   <!-- Viewlets registration -->
   <!-- Zope 3 browser resources -->
 
